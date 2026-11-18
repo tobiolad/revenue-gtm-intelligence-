@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Data (generated, reproducible from generator/ — see README)
+generator/data/
+db/*.duckdb
+db/*.duckdb.wal
+
+# Node / web
+web/node_modules/
+web/dist/
+web/.vite/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+*.log
